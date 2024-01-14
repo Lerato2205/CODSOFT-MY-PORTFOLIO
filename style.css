@@ -1,0 +1,170 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+}
+body {
+  background-color: bisque;
+}
+.hero h1 {
+  font-family: Playfair Display;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 128px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.hero h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.hero {
+  background-image: url(images/port\ bg3.jpg);
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+}
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  padding: 15px 30px;
+  line-height: 27px;
+  font-size: 18px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 48px;
+}
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
+.btn-branding-outline {
+  color: var(--primary-color);
+  padding: 15px 30px;
+  line-height: 27px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+}
+.project-desc {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  .h2 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .project-desc {
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+.about-section {
+  text-align: center;
+  padding: 0;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section h1 {
+  font-family: Playfair Display;
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 25px;
+}
+.content {
+  text-align: center;
+  padding: 0;
+}
+.content h1 {
+  font-family: Playfair Display;
+  font-size: 48px;
+  line-height: 60px;
+}
+.content h3 {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+.content p {
+  font-size: 14px;
+}
+.logo {
+  max-width: 100px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(61, 59, 59);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+footer {
+  margin: 60px;
+}
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px;
+  font-size: 18px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+footer .contact-box {
+  background-image: url(images/port\ bg3.jpg);
+  padding: 30px 120px;
+}
+footer .contact-box p {
+  margin: 0;
+}
